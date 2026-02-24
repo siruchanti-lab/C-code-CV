@@ -2,6 +2,11 @@
 void main()
 {
     int i;
-    for(i=99;i>80;i-=2)
-    printf("%d\n",i);
+    for(i=40;i<=150;i++)
+    {
+        if(i%7==0)
+        printf("%d\n",i)
+        else
+        continue;
+    }
 }
