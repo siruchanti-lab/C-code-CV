@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main(void)
 {
     int i,lim,osum=0,esum=0;
     printf("enter the limit\n");
